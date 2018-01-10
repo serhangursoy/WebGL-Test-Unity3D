@@ -1,35 +1,101 @@
-<!doctype html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | WebGL Test</title>
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
-    <script src="TemplateData/UnityProgress.js"></script>
-  </head>
-  <body class="template">
-    <div class="template-wrap clear">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-      <br>
-      <div class="logo"></div>
-      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-      <div class="title">WebGL Test</div>
-    </div>
-    <script type='text/javascript'>
-  var Module = {
-    TOTAL_MEMORY: 268435456,
-    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-    compatibilitycheck: null,
-    backgroundColor: "#222C36",
-    splashStyle: "Light",
-    dataUrl: "Release/WebGL Test.data",
-    codeUrl: "Release/WebGL Test.js",
-    asmUrl: "Release/WebGL Test.asm.js",
-    memUrl: "Release/WebGL Test.mem",
-  };
-</script>
-<script src="Release/UnityLoader.js"></script>
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
 
-  </body>
+	Modified by Serhan Gürsoy
+-->
+<html>
+	<head>
+		<title>Archios</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+
+
+		<style>
+		body {
+    background-color: #183026;
+    background-image: url('https://78.media.tumblr.com/85b1456cf207175c55e8736ce0362c73/tumblr_nh1iheUdul1qc0s10o1_500.gif');
+    background-position: 0px -40% !important;
+    background-attachment: fixed,	fixed;
+		 background-size: 100% !important;
+}
+
+#banner {
+    position: relative;
+    color: #fff;
+    text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
+    text-align: center;
+    background: #760000 url(images/banner.svg) bottom center no-repeat;
+    padding: 5em 0 5em 0;
+    margin: 0;
+    background-size: 125% auto;
+}
+
+#banner .button {
+    color: #ff0303;
+    text-shadow: 0 0 0.5px rgba(53,184,130,0.25);
+}
+		</style>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header" >
+				<header style="margin-top: -20%; margin-bottom: 8%;">
+					<h1>Archios</h1>
+					<p>New Era for Architecture Projects</p>
+				</header>
+				<footer>
+					<a href="#banner" class="button style2 scrolly scrolly-centered">What is this?</a>
+				</footer>
+			</section>
+
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>Archios</h2>
+				</header>
+				<p>A brand new site for architechs and hobbists!<br />
+				It’s fully responsive, built with <strong> WebGL</strong> and Unity Engine!<br /></p>
+				<footer>
+					<a href="./unity/demo.html" class="button style2 scrolly">Show me the example!</a>
+				</footer>
+			</section>
+
+		<!-- Contact -->
+			<article class="container box style3">
+				<header>
+					<h2>Did you like what have just witness?</h2>
+					<p>Find me</p>
+				</header>
+			</article>
+
+		<!-- Generic -->
+
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="https://twitter.com/infelixstudioru" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://github.com/serhangursoy" class="icon fa-github"><span class="label">Github</span></a></li>
+				<li><a href="https://www.linkedin.com/in/serhangursoy/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			</ul>
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a> & Serhan Gürsoy</li>
+				</ul>
+			</div>
+		</section>
+
+	</body>
 </html>

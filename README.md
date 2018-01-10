@@ -1,5 +1,5 @@
-# Archor
-#### Archor is a web-page template for Architectural Pages.
+# Archios
+#### Archios is a web-page template for Architectural Pages.
 
 You can learn more about Unity3D by contacting to me. I would be glad to discuss details with you. Feel free to open issue, or pull requests.
 
